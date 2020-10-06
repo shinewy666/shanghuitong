@@ -1,14 +1,51 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/news/news"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "商会通",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "assets/image/xinwen.png",
+        "selectedIconPath": "assets/image/xinwen1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "名录",
+        "iconPath": "assets/image/mulv.png",
+        "selectedIconPath": "assets/image/mulv1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "社区",
+        "iconPath": "assets/image/shequ.png",
+        "selectedIconPath": "assets/image/shequ1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "供求",
+        "iconPath": "assets/image/goqiu.png",
+        "selectedIconPath": "assets/image/goqiu1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "我的",
+        "iconPath": "assets/image/my.png",
+        "selectedIconPath": "assets/image/my1.png"
+      }
+     
+    ],
+
+    "color": "#4b4b4b",
+    "selectedColor": "#a21923"
+  }
 }
