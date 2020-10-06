@@ -1,0 +1,122 @@
+/* pages/shequ/index.wxss */
+
+.img_1 {
+  display: flex;
+}
+
+.xiaoxi {
+  display: flex;
+  width: 250rpx;
+  background: #444;
+  color: #fff;
+  border-radius: 44rpx;
+  margin: 30rpx auto;
+
+}
+
+.xiaoxi image {
+  padding: 4rpx 10rpx 4rpx 4rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.xiaoxi text {
+  margin-top: 15rpx;
+}
+
+
+.quanbu{
+  font-size: 23rpx;
+  padding-bottom: 10rpx;
+  display: flex;
+  border-bottom: 2rpx solid #ccc
+}
+.quanbu>view{
+  flex: 1
+}
+.quanbu image{
+  width: 60rpx;
+  height: 60rpx;
+  display: block
+}
+.quanbu text{
+ /* border-bottom: 2px solid red */
+}
+
+
+.active::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4rpx;
+  width: 100%;
+  background: blue;
+}
+
+.quanbu  .botn{
+  width: 20rpx;
+  height: 5rpx;
+  background-color: red;
+}
+.liuyan{
+  padding: 10rpx 20rpx;
+  display: flex;
+  flex: 1;
+    border-bottom: 2rpx solid #ccc
+}
+
+.liuyan view{
+  padding: 5rpx 0
+}
+
+.liuyan text{
+  padding: 5rpx 0
+}
+
+.tx{
+  margin-right: 10rpx
+}
+.tx image{
+  border-radius:50% ;
+width: 60rpx;
+height:60rpx
+}
+.liuyan-left{
+     flex-direction: column;
+    display: flex;
+    flex: 1;
+    font-size: 25rpx;
+
+}
+.liuyan-left image{
+  width: 200rpx;
+  height: 200rpx
+}
+.liuyan-left-bnt{
+display: flex;
+    justify-content: space-between;
+}
+
+.mingcheng{
+  color: red
+}
+
+.liuyan-left-bnt image{
+  width: 30rpx;
+  height: 30rpx
+}
+.btn-r text{
+  font-size: 15rpx;
+  color: red;
+margin-right: 10rpx
+}
+.btn-l text{
+  color: #bbb;
+  padding-right:10rpx 
+}
+.btn-r .jinhua{
+  padding: 5rpx 10rpx;
+  border: 2rpx solid red;
+  border-radius: 20rpx
+}

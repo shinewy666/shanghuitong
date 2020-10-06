@@ -1,0 +1,25 @@
+/**index.wxss**/
+.box{
+  font-size: 25rpx;
+  padding: 40rpx;
+}
+
+.fabu image{ 
+  width: 60rpx;
+  height: 60rpx;
+ 
+}
+.fabu{
+  display: flex;
+justify-content: space-between;
+}
+
+.fabu1{
+  background: red;
+  border-radius: 15rpx;
+  padding: 0px 20rpx;
+  color: #fff;
+  height: 37rpx;
+  
+
+}

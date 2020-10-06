@@ -1,7 +1,14 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+"pages/xinwen/index",
+"pages/minglu/index",
+"pages/shequ/index",
+"pages/gongqiui/index",
+"pages/wode/index",
+"pages/tiezi-xiangqing/index",
+"pages/jiankang-shenghuo/index",
+"pages/fabu/index"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,5 +17,46 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+"tabBar":{
+  "color": "#888",
+  "selectedColor": "green",
+  
+
+  "list":[
+    {
+    "pagePath":"pages/xinwen/index",
+    "text":"xinwen",
+    "iconPath":"pages/images/xinwen1.png",
+    "selectedIconPath":"pages/images/xinwen.png"
+  },
+      {
+        "pagePath": "pages/minglu/index",
+        "text": "minglu",
+        "iconPath": "pages/images/shequ1.png",
+        "selectedIconPath": "pages/images/shequ.png"
+      },
+     
+          {
+            "pagePath": "pages/shequ/index",
+            "text": "shequ",
+            "iconPath": "pages/images/shequ1.png",
+            "selectedIconPath": "pages/images/shequ.png"
+          },
+              {
+                "pagePath": "pages/gongqiui/index",
+                "text": "gongqiui",
+                "iconPath": "pages/images/gongqiu1.png",
+                "selectedIconPath": "pages/images/gongqiu.png"
+              },
+          {
+            "pagePath": "pages/wode/index",
+            "text": "wode",
+            "iconPath": "pages/images/wode1.png",
+            "selectedIconPath": "pages/images/wode.png"
+          }
+      
+  ]
+
+}
 }

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view  wx:for="{{list}}" class="box" >
+
+
+
+<view class="fabu" >
+  <view >
+   <image src="../images/wode.png"></image>
+<text >{{item.jiankang}}</text>
+</view>
+
+<text class="fabu1">发布</text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

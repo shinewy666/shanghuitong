@@ -1,0 +1,61 @@
+<!--index.wxml-->
+
+<view wx:for="{{liuyan}}" class="liuyan">
+  <view class="tx">
+    <image src="{{item.liuyantu}}" style="width:100rpx;"></image>
+  </view>
+
+  <view class="liuyan-left">
+    <text class="mingcheng">{{item.name}}</text>
+    <text>{{item.text}}</text>
+    <image src="{{item.liuyantu}}"></image>
+
+    <view class="liuyan-left-bnt">
+
+      <view class="btn-r">
+        <text style="color:#bbb">2020.09.12</text>
+      </view>
+
+      <view class="btn-l">
+        <image src="{{item.liuyantu}}"></image>
+        <text>{{item.yulanl}}</text>
+      </view>
+
+    </view>-
+  </view>
+</view>
+
+
+<view>
+
+  <view wx:for="{{xiangqing}}" class="pinl">
+    <image src="{{item.touxiang}}"></image>
+   <text>评论{{item.shuliang}}</text>
+
+  </view>
+  <view wx:for="{{pinglun}}" class="liuyan">
+    <view class="tx">
+      <image src="{{item.liuyantu}}" style="width:100rpx;"></image>
+    </view>
+
+    <view class="liuyan-left">
+      <text class="mingcheng">{{item.name}}</text>
+      <text>{{item.text}}</text>
+      <text style="color:#bbb">{{item.time}}</text>
+
+    <view style="    display: flex;     flex-direction: column;">
+    <text>{{item.zhangxueyou}}{{item.ganixe}}</text>
+     <text style="color:#bbb">{{item.time1}}</text>
+     <text>{{item.yqq}}{{item.huifu}}{{item.zhangxueyou}}{{item.ganixe}}</text>
+     <text style="color:#bbb">{{item.time1}}</text>
+    </view>
+
+    </view>
+
+  </view>
+
+  <view>
+      没有更多了
+  </view>
+
+</view>

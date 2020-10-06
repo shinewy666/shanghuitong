@@ -1,0 +1,70 @@
+/**index.wxss**/
+
+.liuyan{
+  padding: 10rpx 20rpx;
+  display: flex;
+  flex: 1;
+    border-bottom: 2rpx solid #ccc
+}
+
+.liuyan view{
+  padding: 5rpx 0
+}
+
+.liuyan text{
+  padding: 5rpx 0
+}
+
+.tx{
+  margin-right: 10rpx
+}
+.tx image{
+width: 100rpx;
+height: 100rpx
+}
+.liuyan-left{
+     flex-direction: column;
+    display: flex;
+    flex: 1;
+
+}
+.liuyan-left image{
+  width: 200rpx;
+  height: 200rpx
+}
+.liuyan-left-bnt{
+display: flex;
+    justify-content: space-between;
+}
+
+.mingcheng{
+  color: red
+}
+
+.liuyan-left-bnt image{
+  width: 30rpx;
+  height: 30rpx
+}
+.btn-r text{
+  color: red;
+margin-right: 10rpx
+}
+.btn-l text{
+  color: #bbb;
+  padding-right:10rpx 
+}
+.btn-r .jinhua{
+  padding: 5rpx 10rpx;
+  border: 2rpx solid red;
+  border-radius: 20rpx
+}
+
+
+
+.pinl{
+  padding: 20rpx
+}
+.pinl image{
+  height: 50rpx;
+width: 50rpx
+}

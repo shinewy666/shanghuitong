@@ -31,13 +31,49 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/shequ/index",
+					"pathName": "pages/shequ/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tiezi-xiangqing/index",
+					"pathName": "pages/tiezi-xiangqing/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/jiankang-shenghuo/index",
+					"pathName": "pages/jiankang-shenghuo/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/fabu/index",
+					"pathName": "pages/fabu/index",
+					"scene": null
+				}
+			]
 		}
 	}
 }

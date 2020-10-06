@@ -1,0 +1,51 @@
+<!--pages/shequ/index.wxml-->
+<!-- top -->
+<view class="img_1">
+  <view wx:for="{{xiaoxi}}" class="xiaoxi">
+    <image src="{{touxiang}}"></image>
+    <view style="flex-direction: column;display: flex;">
+      <text >{{item.xiaoxi}}</text>
+      <text style="font-size:20rpx;" >{{item.tiezi}}帖子</text>
+   </view>
+</view>
+</view>
+<!-- top end -->
+
+
+
+<!-- bottom -->
+
+<view wx:for="{{liuyan}}" class="liuyan">
+  <view class="tx">
+    <image src="{{item.liuyantu}}" ></image>
+  </view>
+
+  <view class="liuyan-left">
+    <text class="mingcheng">{{item.name}}</text>
+    <text>{{item.text}}</text>
+    <image src="{{item.liuyantu}}"></image>
+
+    <view class="liuyan-left-bnt">
+      <view class="btn-r">
+        <text style="color:#bbb">2020.09.12</text>
+        <text class="jinhua">{{item.jinhua}}</text>
+        <text>{{item.del}}</text>
+      </view>
+      <view class="btn-l">
+        <image src="{{item.xiaoxi}}"></image>
+        <text>{{item.liuyanl}}</text>
+        <image src="{{item.liulan}}"></image>
+        <text>{{item.yulanl}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- bottom end -->
+
+
+<!-- 发帖 -->
+
+<view class="fatie">
+  <text >+</text>
+  <text >发帖</text>
+</view>
