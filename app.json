@@ -30,25 +30,25 @@
         "selectedIconPath": "assets/image/xinwen1.png"
       },
       {
-        "pagePath": "pages/news/news",
+        "pagePath": "pages/minglu/index",
         "text": "名录",
         "iconPath": "assets/image/mulv.png",
         "selectedIconPath": "assets/image/mulv1.png"
       },
       {
-        "pagePath": "pages/news/news",
+        "pagePath": "pages/shequ/index",
         "text": "社区",
         "iconPath": "assets/image/shequ.png",
         "selectedIconPath": "assets/image/shequ1.png"
       },
       {
-        "pagePath": "pages/news/news",
+        "pagePath": "pages/gongqiui/index",
         "text": "供求",
         "iconPath": "assets/image/goqiu.png",
         "selectedIconPath": "assets/image/goqiu1.png"
       },
       {
-        "pagePath": "pages/news/news",
+        "pagePath": "pages/wode/index",
         "text": "我的",
         "iconPath": "assets/image/my.png",
         "selectedIconPath": "assets/image/my1.png"
