@@ -1,0 +1,36 @@
+<view class="centent">
+  <view class="header">
+    <text>中国电子商会供应链与物流专委会筹备会议召开</text>
+  </view>
+  <view class="main">
+    <view class="main-top">
+      <text>作者名称</text>
+      <text>2020.10.06</text>
+    </view>
+    <view>
+      <image src="/assets/image/tupian5.png"></image>
+    </view>
+    <view class="main-body1">
+      <text>
+        互联网浪潮下的今天，每天都有各种信息冲击着我们。对知识的渴求已经日渐成为一种焦虑，仿佛每天不收藏几篇公众号文章，不刷刷知乎、36氪就要被时代淘汰了一样。当然，还要似懂非懂的高谈区块链……
+        越来越多的碎片化信息充斥着我们的生活，我们想要从中汲取营养，想要了解更多的知识。这些都没有错，但是我们那些所谓先码后看的文章又再翻起过吗？那些翻互联网浪潮下的今天，每天都有各种信息冲击着我们。对知识的渴求已经日渐成为一种焦虑，仿佛每天不收藏几篇公众号文章，不刷刷知乎、36氪就要被时代淘汰了一样。当然，还要似懂非懂的高谈区块链……
+        越来越多的碎片化信息充斥着我们的生活，我们想要从中汲取营养，想要了解更多的知识。这些都没有错，但是我们那些所谓先码后看的文章又再翻起过吗？那些翻
+      </text>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="weui-cell_input">
+      <input class="weui-input" maxlength="50" bindinput="bindKeyInput" placeholder="说点什么..." />
+    </view>
+    <view class="flow">
+              <view>
+                <image src="/assets/image/pl.png"></image>
+                <text wx:for="{{list}}">{{item.value}}</text>
+              </view>
+              <view>
+                <image src="/assets/image/dz.png"></image>
+                <text wx:for="{{addgive}}">{{item.value}}</text>
+              </view>
+            </view>
+  </view>
+</view>

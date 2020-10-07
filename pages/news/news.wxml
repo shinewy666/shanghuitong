@@ -29,7 +29,7 @@
             <view class="flow">
               <view>
                 <image src="/assets/image/pl.png"></image>
-                <text>{{item.number}}k</text>
+                <text>{{item.number}}K</text>
               </view>
               <view>
                 <image src="/assets/image/dz.png"></image>

@@ -1,0 +1,93 @@
+.centent {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin: 20rpx 30rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+
+.main>view:first-child {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.main>view:first-child>view {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20rpx;
+}
+
+.main>view:first-child>text {
+  font-size: 35rpx;
+  color: rgb(119, 20, 20);
+}
+
+.main>view:first-child>view>image {
+  width: 100%;
+  height: 100%;
+}
+
+.main>view:last-child {
+  margin: 20rpx 20rpx 20rpx 120rpx;
+}
+
+.main>view:last-child>text:first-child {
+  font-size: 35rpx;
+}
+
+.main>view:last-child>view {
+  display: flex;
+  margin: 30rpx 0;
+}
+
+.main>view:last-child>view>text {
+  font-size: 28rpx;
+  color: rgb(138, 129, 129);
+}
+
+.main>view:last-child>view>text:first-child {
+  margin-right: 10rpx;
+}
+
+.main-body1 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-grow: 1;
+  margin-bottom: 100rpx;
+}
+.footer {
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  /* flex: 1; */
+  bottom: 0;
+  left: 0;
+  padding: 10rpx 30rpx;
+  height: 97rpx;
+  /* justify-content: center; */
+  align-items: center;
+}
+.footer>.weui-cell_input{
+    border: 2rpx solid #ccc;
+    border-radius: 80rpx;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 60rpx;
+    flex: 1;
+}
+.footer>.weui-cell_input>input {
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  flex: 1;
+}

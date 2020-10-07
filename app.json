@@ -1,6 +1,8 @@
 {
   "pages":[
-    "pages/news/news"
+    "pages/news/news",
+    "pages/news-details/details",
+    "pages/comment/comment"
   ],
   "window":{
     "backgroundTextStyle":"light",

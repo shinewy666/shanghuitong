@@ -1,0 +1,25 @@
+<view class="centent">
+  <view class="main" wx:for="{{list}}">
+    <view>
+      <view>
+        <image src="{{item.image}}"></image>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+    <view>
+      <text>{{item.value}}</text>
+      <view>
+        <text>{{item.calendar}}</text>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="main-body1">
+    <text>没有更多了</text>
+  </view>
+  <view class="footer">
+    <view class="weui-cell_input">
+      <input class="weui-input" maxlength="50" bindinput="bindKeyInput" placeholder="说点什么..." />
+    </view>
+  </view>
+</view>
