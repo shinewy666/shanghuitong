@@ -1,6 +1,6 @@
 {
+
   "pages": [
-    "pages/xinwen/index",
     "pages/minglu/index",
     "pages/shequ/index",
     "pages/gongqiui/index",
@@ -9,7 +9,9 @@
     "pages/jiankang-shenghuo/index",
     "pages/fabu/index",
     "pages/new-news/index",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/news-details/details",
+    "pages/comment/comment"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -14,11 +14,11 @@
   </view>
   <view class="main">
     <view class="main-top">
-      <view wx:for="{{mainTop}}" data-id="{{item.id}}" bindtap="toggleCurrent"
-        class="{{item.id === activeIndex ? 'active' : ''}}">{{item.name}}</view>
+      <view wx:for="{{userinfo}}" data-index="{{index}}" bindtap="toggleCurrent"
+        class="{{index === activeIndex ? 'active' : ''}}">{{item.name}}</view>
     </view>
 
-    <view class="main-footer" wx:for="{{mainFooter}}">
+    <view class="main-footer" wx:for="{{mainFooter}}" bindtap="tiaozhuan">
       <view>
         <image src="{{item.image}}"></image>
       </view>
@@ -29,7 +29,7 @@
             <view class="flow">
               <view>
                 <image src="/assets/image/pl.png"></image>
-                <text>{{item.number}}k</text>
+                <text>{{item.number}}K</text>
               </view>
               <view>
                 <image src="/assets/image/dz.png"></image>

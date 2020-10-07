@@ -1,0 +1,93 @@
+
+.centent {
+  /* padding: 10rpx 30rpx; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+    /* background-color: aqua; */
+    padding: 10rpx 30rpx;
+}
+.header>text {
+  font-size: 48rpx;
+}
+.main {
+  /* background-color: aqua; */
+  
+}
+.main>.main-top {
+  margin: 20rpx 0;
+  padding: 10rpx 30rpx;
+}
+.main>.main-top>text {
+  color: #a4a4a4;
+  font-size: 28rpx;
+}
+.main>.main-top>text:first-child {
+  margin-right: 20rpx;
+}
+.main>view:nth-child(2){
+  /* width: 100%; */
+  height: 408rpx;
+  padding: 10rpx 30rpx;
+}
+.main>view:nth-child(2)>image {
+  width: 100%;
+  height: 100%;
+}
+.main-body1 {
+  padding: 0 30rpx;
+  /* display: flex; */
+  margin-bottom: 130rpx;
+}
+.main-body1>text {
+  font-size: 30rpx;
+}
+.footer {
+  position: fixed;
+  display: flex;
+  background-color: #fff;
+  /* width: 100%; */
+  flex: 1;
+  bottom: 0;
+  left: 0;
+  padding: 10rpx 30rpx;
+  height: 97rpx;
+  /* justify-content: center; */
+  align-items: center;
+}
+.footer>.weui-cell_input{
+    border: 2rpx solid #ccc;
+    border-radius: 80rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rpx;
+    /* flex: 1; */
+}
+.footer>.weui-cell_input>input {
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.flow {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rpx;
+  color: #a4a4a4;
+}
+.flow>view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flow>view:first-child {
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}
+.flow>view>image {
+  width: 50rpx;
+  height: 50rpx;
+}

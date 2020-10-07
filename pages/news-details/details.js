@@ -1,0 +1,14 @@
+Page({
+  data:{
+    list:[
+      {
+      id:1,
+      value:"1.4K"
+    }
+  ],
+  addgive:[{
+    id:1,
+    value:"999"
+  }]
+  }
+})
