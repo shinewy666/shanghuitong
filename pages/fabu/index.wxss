@@ -11,15 +11,31 @@
 }
 .fabu{
   display: flex;
+  align-items: center;
 justify-content: space-between;
 }
 
+.fabu>view:first-child {
+  display: flex;
+
+align-items: center;
+}
+
 .fabu1{
+  display: flex;
   background: red;
   border-radius: 15rpx;
   padding: 0px 20rpx;
   color: #fff;
   height: 37rpx;
-  
+}
 
+
+.weui-uploader__info {
+  display: none;
+}
+
+.weui-cells:after,
+.weui-cells:before {
+  border: none;
 }

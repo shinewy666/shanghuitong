@@ -1,0 +1,29 @@
+<!-- index.wxml -->
+<view class="centent">
+      <view class="main">
+            <view class="box">
+                  <image src="../images/1.jpg"></image>
+                  
+                  
+             <view  class="center">
+                  <text >张丽</text>
+                  <text >好棒哦～</text>
+                  <text >2020.09.12 12:23</text>
+                  <view  class="tupain">
+                        <view >
+                              <image  src="../images/xiaoxi.png"/>
+                        </view>
+                        <text >回复</text>
+                  </view>
+            </view>
+
+
+
+
+            </view>
+          
+            <view >
+                  <image src="../images/2.jpg" />
+            </view>
+      </view>
+</view>

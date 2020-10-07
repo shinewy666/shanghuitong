@@ -1,0 +1,62 @@
+.centent {
+    height: 100vh;
+    margin: 20rpx 30rpx;
+    
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 2rpx solid #ccc;    
+    padding: 20rpx 0;
+    /* flex-direction: row; */
+}
+.main>view:first-child {
+
+    margin-right: 20rpx;
+}
+.main>view:first-child>image {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}
+
+.box{
+    display: flex;
+}
+
+
+.main .center {
+    padding-left: 20rpx;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rpx;
+}
+.main .center>text:first-child {
+    margin-bottom: 30rpx;
+}
+.main .center>text:nth-child(3) {
+    font-size: 28rpx;
+    color: #ccc;
+}
+
+.tupain{
+    display: flex;
+    /* color: red; */
+    /* justify-content: center; */
+    align-items: center;
+}
+.tupain>view {
+    height: 40rpx;
+    width: 40rpx;
+    margin-right: 20rpx;
+}
+.tupain>view>image {
+    width: 100%;
+    height: 100%;
+}
+
+.main>view:last-child>image {
+    height: 120rpx;
+    width: 120rpx;
+}

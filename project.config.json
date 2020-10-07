@@ -71,6 +71,13 @@
 					"id": -1,
 					"name": "pages/fabu/index",
 					"pathName": "pages/fabu/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/new-news/index",
+					"pathName": "pages/new-news/index",
 					"scene": null
 				}
 			]
