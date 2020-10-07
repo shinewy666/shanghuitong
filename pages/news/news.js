@@ -1,0 +1,85 @@
+//index.js
+//获取应用实例
+const app = getApp()
+
+Page({
+  data: {
+    activeIndex:1,
+    mainTop:[
+      {
+      id:1,
+      name:"推荐",  
+    },
+      {
+      id:2,
+      name:"商会",  
+    },
+      {
+      id:3,
+      name:"活动",  
+    },
+      {
+      id:4,
+      name:"政策",  
+    },
+      {
+      id:5,
+      name:"国内",  
+    },
+      {
+      id:6,
+      name:"国际",  
+    },
+  ],
+  mainFooter:[
+    {
+    id:1,
+    name:'关于召开中国电子商会中国电子商会供应链与物流专委会筹备会议召开与物流专委会筹备会议召',
+    calendar:"2020.10.06",
+    number:"1.4",
+    give:'999',
+    image:"/assets/image/tupian2.png"
+  },
+    {
+    id:2,
+    name:'关于召开中国电子商会中国电子商会供应链与物流专委会筹备会议召开与物流专委会筹备会议召',
+    calendar:"2020.10.06",
+    number:"1.4",
+    give:'999',
+    image:"/assets/image/tupian3.png"
+  },
+    {
+    id:3,
+    name:'关于召开中国电子商会中国电子商会供应链与物流专委会筹备会议召开与物流专委会筹备会议召',
+    calendar:"2020.10.06",
+    number:"1.4",
+    give:'999',
+    image:"/assets/image/tupian4.png"
+  },
+    {
+    id:4,
+    name:'关于召开中国电子商会中国电子商会供应链与物流专委会筹备会议召开与物流专委会筹备会议召',
+    calendar:"2020.10.06",
+    number:"1.4",
+    give:'999',
+    image:"/assets/image/tupian4.png"
+  },
+    {
+    id:5,
+    name:'关于召开中国电子商会中国电子商会供应链与物流专委会筹备会议召开与物流专委会筹备会议召',
+    calendar:"2020.10.06",
+    number:"1.4",
+    give:'999',
+    image:"/assets/image/tupian2.png"
+  },
+]
+  },
+  toggleCurrent(e){
+    const id=e.currentTarget.dataset.id
+    console.log(id)
+    this.setData({
+      activeIndex:id,
+    })
+  }
+ 
+})

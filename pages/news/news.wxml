@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="centent">
+  <view class="header">
+    <image src="/assets/image/tupian1.png"></image>
+    <view>
+      <text>中国电子商会供应链与物流专委会筹备会议召开</text>
+      <view>
+        <text></text>
+        <text></text>
+        <text></text>
+        <text></text>
+      </view>
+    </view>
+  </view>
+  <view class="main">
+    <view class="main-top">
+      <view wx:for="{{mainTop}}" data-id="{{item.id}}" bindtap="toggleCurrent"
+        class="{{item.id === activeIndex ? 'active' : ''}}">{{item.name}}</view>
+    </view>
+
+    <view class="main-footer" wx:for="{{mainFooter}}">
+      <view>
+        <image src="{{item.image}}"></image>
+      </view>
+      <view>
+          <text>{{item.name}}</text>
+          <view>
+            <text>{{item.calendar}}</text>
+            <view class="flow">
+              <view>
+                <image src="/assets/image/pl.png"></image>
+                <text>{{item.number}}k</text>
+              </view>
+              <view>
+                <image src="/assets/image/dz.png"></image>
+                <text>{{item.give}}</text>
+              </view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+
+
+  </view>
+</view>

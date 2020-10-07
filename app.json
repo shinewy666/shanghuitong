@@ -1,63 +1,58 @@
 {
-  "pages":[
-"pages/xinwen/index",
-"pages/minglu/index",
-"pages/shequ/index",
-"pages/gongqiui/index",
-"pages/wode/index",
-"pages/tiezi-xiangqing/index",
-"pages/jiankang-shenghuo/index",
-"pages/fabu/index",
-"pages/new-news/index"
-
+  "pages": [
+    "pages/xinwen/index",
+    "pages/minglu/index",
+    "pages/shequ/index",
+    "pages/gongqiui/index",
+    "pages/wode/index",
+    "pages/tiezi-xiangqing/index",
+    "pages/jiankang-shenghuo/index",
+    "pages/fabu/index",
+    "pages/new-news/index",
+    "pages/news/news"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "商会通",
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-"tabBar":{
-  "color": "#888",
-  "selectedColor": "green",
-  
-
-  "list":[
-    {
-    "pagePath":"pages/xinwen/index",
-    "text":"xinwen",
-    "iconPath":"pages/images/xinwen1.png",
-    "selectedIconPath":"pages/images/xinwen.png"
-  },
+  "tabBar": {
+    "list": [
       {
-        "pagePath": "pages/minglu/index",
-        "text": "minglu",
-        "iconPath": "pages/images/shequ1.png",
-        "selectedIconPath": "pages/images/shequ.png"
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "assets/image/xinwen.png",
+        "selectedIconPath": "assets/image/xinwen1.png"
       },
-     
-          {
-            "pagePath": "pages/shequ/index",
-            "text": "shequ",
-            "iconPath": "pages/images/shequ1.png",
-            "selectedIconPath": "pages/images/shequ.png"
-          },
-              {
-                "pagePath": "pages/gongqiui/index",
-                "text": "gongqiui",
-                "iconPath": "pages/images/gongqiu1.png",
-                "selectedIconPath": "pages/images/gongqiu.png"
-              },
-          {
-            "pagePath": "pages/wode/index",
-            "text": "wode",
-            "iconPath": "pages/images/wode1.png",
-            "selectedIconPath": "pages/images/wode.png"
-          }
-      
-  ]
-
-}
+      {
+        "pagePath": "pages/news/news",
+        "text": "名录",
+        "iconPath": "assets/image/mulv.png",
+        "selectedIconPath": "assets/image/mulv1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "社区",
+        "iconPath": "assets/image/shequ.png",
+        "selectedIconPath": "assets/image/shequ1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "供求",
+        "iconPath": "assets/image/goqiu.png",
+        "selectedIconPath": "assets/image/goqiu1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "我的",
+        "iconPath": "assets/image/my.png",
+        "selectedIconPath": "assets/image/my1.png"
+      }
+    ],
+    "color": "#4b4b4b",
+    "selectedColor": "#a21923"
+  }
 }

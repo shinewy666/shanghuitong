@@ -1,0 +1,144 @@
+/**index.wxss**/
+.centent {
+  background-color: #ccc;
+  height: 100vh;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+}
+
+.header>image {
+  height: 303rpx;
+  width: 100%;
+}
+
+.header>view {
+  display: flex;
+  /* flex-direction: column; */
+  /* background-color: yellowgreen; */
+  padding: 20rpx 0 20rpx 20rpx;
+}
+
+.header>view>text {
+  font-size: 30rpx;
+  /* flex: 1; */
+}
+
+.header>view>view {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.header>view>view>text {
+  width: 15rpx;
+  height: 15rpx;
+  background-color: #ccc;
+  margin-right: 10rpx;
+  border-radius: 50%;
+}
+
+.header>view>view>text:first-child {
+  background-color: red;
+}
+
+.main {
+  background-color: #fff;
+}
+
+.main>view:first-child {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  padding: 18rpx 25rpx 0rpx 25rpx;
+}
+
+.main>view:first-child>view {
+  font-size: 30rpx;
+  color: rgb(114, 109, 109);
+  position: relative;
+  padding-bottom: 10rpx;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  bottom: 0rpx;
+  left: 0;
+  height: 8rpx;
+  width: 50%;
+  background: red;
+  transform: translate(50%, 0);
+}
+.main-footer {
+  padding-bottom: 20rpx;
+  /* background-color: red; */
+  /* margin-top: 10rpx; */
+  margin: 20rpx 20rpx 0rpx 20rpx;
+  display: flex;
+  /* background-color: yellow; */
+  border-bottom: 2rpx solid #ccc;
+  display: flex;
+}
+.main-footer:last-child {
+  border: none;
+}
+.main-footer>view:first-child {
+    width: 242rpx;
+    height: 151rpx;
+    background-color: #ccc;
+    margin-right: 20rpx;
+}
+.main-footer>view:first-child>image {
+  width: 100%;
+  height: 100%;
+}
+.main-footer>view:last-child {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+}
+.main-footer>view:last-child>text {
+  font-size: 28rpx;
+  height: 50%;
+  text-overflow : ellipsis;
+  overflow : hidden; 
+  /* white-space : nowrap; */
+}
+.main-footer>view:last-child>view {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    color: #999999;
+}
+.main-footer>view:last-child>view>text {
+  font-size: 25rpx;
+}
+.flow {
+  display: flex;
+}
+.flow>view{
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flow>view>image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 5rpx;
+}
+.flow>view:first-child {
+  margin-right: 20rpx;
+}
